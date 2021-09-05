@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "GoldenSpin",
+  "version": "1.0",
+  "author": "Elliot",
+  "description": "A loop tomato clock.",
+
+  "icons": {
+    "48": "icons/logo.svg",
+    "96": "icons/logo.svg"
+  },
+
+  "browser_action": {
+      "browser_style": true,
+      "default_popup": "popup/panel.html",
+      "default_icon": {
+          "16": "icons/logo.svg",
+          "32": "icons/logo.svg"
+      }
+  },
+
+  "permissions": ["notifications", "alarms", "storage"],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
