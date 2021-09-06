@@ -12,7 +12,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     case "setTimer":
       browser.alarms.create("cavalry-spin", {
         delayInMinutes: 25,
-        periodInMinutes: 5,
+        periodInMinutes: 25,
       });
       break;
     case "resetTimer":
