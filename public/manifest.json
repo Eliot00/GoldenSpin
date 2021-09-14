@@ -7,22 +7,22 @@
   "description": "A loop tomato clock.",
 
   "icons": {
-    "48": "icons/logo.svg",
-    "96": "icons/logo.svg"
+    "48": "logo.svg",
+    "96": "logo.svg"
   },
 
   "browser_action": {
       "browser_style": true,
-      "default_popup": "popup/panel.html",
+      "default_popup": "index.html",
       "default_icon": {
-          "16": "icons/logo.svg",
-          "32": "icons/logo.svg"
+          "16": "logo.svg",
+          "32": "logo.svg"
       }
   },
 
   "permissions": ["notifications", "alarms", "storage"],
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["../background.js"]
   }
 }
