@@ -2,31 +2,32 @@ import React from "react"
 import {
   ChakraProvider,
   Box,
-  Text,
-  Link,
+  Button,
   VStack,
-  Code,
   Grid,
   theme,
 } from "@chakra-ui/react"
+import browser from "webextension-polyfill";
 
 const App: React.FC = () => (
   <ChakraProvider theme={theme}>
     <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
-        <VStack spacing={8}>
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-          </Text>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
+        <VStack spacing={2}>
+          <Button
+            colorScheme="yellow"
+            variant="solid"
+            onClick={() => browser.runtime.sendMessage({action: "setTimer"})}
           >
-            Learn Chakra
-          </Link>
+            騎兵迴旋
+          </Button>
+          <Button
+            colorScheme="red"
+            variant="solid"
+            onClick={() => browser.runtime.sendMessage({action: "resetTimer"})}
+          >
+            敗者食塵
+          </Button>
         </VStack>
       </Grid>
     </Box>

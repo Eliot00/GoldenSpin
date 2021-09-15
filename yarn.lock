@@ -2665,6 +2665,11 @@
   resolved "https://registry.nlark.com/@types/warning/download/@types/warning-3.0.0.tgz?cache=0&sync_timestamp=1629709772313&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fwarning%2Fdownload%2F%40types%2Fwarning-3.0.0.tgz#0d2501268ad8f9962b740d387c4654f5f8e23e52"
   integrity sha1-DSUBJorY+ZYrdA04fEZU9fjiPlI=
 
+"@types/webextension-polyfill@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.nlark.com/@types/webextension-polyfill/download/@types/webextension-polyfill-0.8.0.tgz#6c40740eec531de412f6ceba27bb2cad4a24907c"
+  integrity sha1-bEB0DuxTHeQS9s66J7ssrUokkHw=
+
 "@types/webpack-sources@*":
   version "3.2.0"
   resolved "https://registry.nlark.com/@types/webpack-sources/download/@types/webpack-sources-3.2.0.tgz?cache=0&sync_timestamp=1629709682598&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fwebpack-sources%2Fdownload%2F%40types%2Fwebpack-sources-3.2.0.tgz#16d759ba096c289034b26553d2df1bf45248d38b"
@@ -11954,6 +11959,11 @@ web-vitals@^1.0.1:
   version "1.1.2"
   resolved "https://registry.nlark.com/web-vitals/download/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
   integrity sha1-BlNTCBaJhgliOaqEcW5otMaubRw=
+
+webextension-polyfill@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.nlark.com/webextension-polyfill/download/webextension-polyfill-0.8.0.tgz#f80e9f4b7f81820c420abd6ffbebfa838c60e041"
+  integrity sha1-+A6fS3+BggxCCr1v++v6g4xg4EE=
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
